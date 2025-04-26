@@ -304,9 +304,93 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
-.dev-icons svg{
+.dev-icons svg {
   height: 3rem;
   width: 3rem;
+  transition: fill 0.3s ease;
+}
+
+.dev-icons svg[data-icon="python"] {
+  fill: #3776AB;
+}
+
+.dev-icons svg[data-icon="java"] {
+  fill: #007396;
+}
+
+.dev-icons svg[data-icon="js-square"],
+.dev-icons svg[data-icon="js"] {
+  fill: #F7DF1E;
+}
+
+.dev-icons svg[data-icon="c"] {
+  fill: #A8B9CC;
+}
+
+.dev-icons svg[data-icon="react"] {
+  fill: #61DAFB;
+}
+
+.dev-icons svg[data-icon="git-alt"],
+.dev-icons svg[data-icon="git"] {
+  fill: #F05032;
+}
+
+.dev-icons svg[data-icon="vuejs"] {
+  fill: #4FC08D;
+}
+
+.dev-icons svg[data-icon="node"],
+.dev-icons svg[data-icon="node-js"] {
+  fill: #339933;
+}
+
+.dev-icons svg[data-icon="database"] {
+  fill: #4479A1;
+}
+
+.dev-icons svg:hover {
+  fill: #cc5200;
+}
+
+.dev-icons .fa-python {
+  color: #3776AB;
+}
+
+.dev-icons .fa-java {
+  color: #007396;
+}
+
+.dev-icons .fa-js-square {
+  color: #F7DF1E;
+}
+
+.dev-icons .fa-cuttlefish {
+  color: #A8B9CC;
+}
+
+.dev-icons .fa-react {
+  color: #61DAFB;
+}
+
+.dev-icons .fa-git-alt {
+  color: #F05032;
+}
+
+.dev-icons .fa-vuejs {
+  color: #4FC08D;
+}
+
+.dev-icons .fa-node-js {
+  color: #339933;
+}
+
+.dev-icons .fa-database {
+  color: #4479A1;
+}
+
+.dev-icons .fa-n {
+  color: #4479A1;
 }
 
 section.resume-section {
