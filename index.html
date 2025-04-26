@@ -46,7 +46,7 @@
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+          <a class="nav-link js-scroll-trigger" href="#publications">Research Papers</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -71,7 +71,7 @@
       <div class="resume-section-content">
         <h1 class="mb-0">
           Tahsin Zaman
-          <span class="text-secondary">Jilan</span>
+          <span class="text-secondary">Jillu</span>
         </h1>
         <td>
           
@@ -190,269 +190,70 @@
     <!-- Publications-->
     <section class="resume-section" id="publications">
       <div class="resume-section-content">
-        <h2 class="mb-5">Publications</h2>
+        <h2 class="mb-5">Research Papers</h2>
 
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <!-- ADD NEW PAPER -->
-          
           <div class="flex-grow-1">
             <h4 class="mb-0">
-              Attention-based Imputation of Missing Values in Electronic Health Records Tabular Data
+              Beyond the Benchmark: Innovative Defenses Against Prompt Injection Attacks
             </h4>
             <div class="subheading mb-3">
-              <p><strong>Tahsin Zaman Jilan</strong>, Shourav B. Rabbani, Manar D. Samad</p>
+              <p>Safwan Shaheer, Refatul Islam,<strong>Tahsin Zaman Jilan</strong></p>
               <p>
-                International Conference on Pattern Recognition (ICHI 2024)
+                [Working Paper]
               </p>
-              <!-- <p>
-                  2020 IEEE Region 10 Symposium (TENSYMP), 5-7 June 2020, Dhaka,
-                  Bangladesh
-                </p> -->
-              
-          <a target="_blank" href="" title="Attention-based Imputation of Missing Values in Electronic Health Records Tabular Data"><i
-            class="fa fa-file-pdf me-2"></i>Paper
-          </a>
-          </div>
+            </div>
             <div class="textarea">
               <h5 class="mb-1">Abstract</h5>
               <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;font-size: 15px;">
-                The imputation of missing values (IMV) in electronic health records tabular data is crucial to enable machine learning for patient-specific predictive modeling. 
-                While IMV methods are developed in biostatistics and recently in machine learning, deep learning-based solutions have shown limited success in learning tabular data. 
-                This paper proposes a novel attention-based missing value imputation framework that learns to reconstruct data with missing values leveraging between-feature (self-attention) or between-sample attentions. 
-                We adopt data manipulation methods used in contrastive learning to improve the generalization of the trained imputation model. The proposed self-attention imputation method outperforms state-of-the-art statistical and machine learning-based (decision-tree) imputation methods, reducing the normalized root mean squared error by 18.4% to 74.7% on five tabular data sets and 52.6% to 82.6% on two electronic health records data sets. 
-                The proposed attention-based missing value imputation method shows superior performance across a wide range of missingness (10% to 50%) when the values are missing completely at random.
+                In this fast-evolving area of LLMs, our paper discusses the significant security risk presented by prompt injection attacks. It focuses on small open-sourced models, specifically the LLaMA family of models. We introduce novel defense mechanisms capable of generating automatic defenses and systematically evaluate said generated defenses against a comprehensive set of benchmarked attacks. Thus, we empirically demonstrated the improvement proposed by our approach in mitigating goal-hijacking vulnerabilities in LLMs. Our work recognizes the increasing relevance of small open-sourced LLMs and their potential for broad deployments on edge devices, aligning with future trends in LLM applications. We contribute to the greater ecosystem of open-source LLMs and their security in the following: (1) assessing present prompt-based defenses against the latest attacks, (2) introducing a new framework using a seed defense (Chain Of Thoughts) to refine the defense prompts iteratively, and (3) showing significant improvements in detecting goal hijacking attacks. Our strategies significantly reduce the success rates of the attacks and false detection rates while at the same time effectively detecting goal-hijacking capabilities, paving the way for more secure and efficient deployments of small and open-source LLMs in resource-constrained environments.
               </p>
             </div>
-            <!-- <p>• Segmentation & Recognition of Bangla, Assamese and English (Handwritten, Typewritten, Computer Composed
-              & Printed) characters</p> -->
-            <p>
-              • Accepted in ICHI2024 [will be online soon]
-            </p>
-          
-          </div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h4 class="mb-0">
-              A Deep Learning Based Unified Solution for Character Recognition
-            </h4>
-            <div class="subheading mb-3">
-              <p>
-                Avishek Das, AKM Shahariar Azad Rabby, <strong> Tahsin Zaman Jilan</strong>, Fuad Rahman </p>
-              <p>
-                International Conference on Pattern Recognition (ICPR 2022)
-              </p>
-              <!-- <p>
-                  2020 IEEE Region 10 Symposium (TENSYMP), 5-7 June 2020, Dhaka,
-                  Bangladesh
-                </p> -->
-              <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9956348" title="A Deep Learning Based Unified Solution for Character Recognition"><i
-                  class="fa fa-file-pdf me-2"></i>Paper
-              </a>
-            </div>
-              <div class="textarea">
-                <h5 class="mb-1">Abstract</h5>
-                <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;font-size: 15px;">
-                  Optical Character Recognition(OCR) has become a crucial area of research due to the vast number of digitized documents to lessen the dependency on paper.
-                  One can save time and money on data entry by automatically extracting information off paper and putting it where it needs to go.
-                  There has been much research on OCR systems for different languages, but a unified system that is agnostic to language does not exist. 
-                  In this work, we propose a multi-headed resunet++ based solution that can recognize the low resource languages(Bangla, Assamese, etc.) and performs well on resource-rich languages(such as English, Arabic, etc.). 
-                  The backbone of the solution, i.e., resunet++, is fundamentally designed for medical image segmentation that is very complex. 
-                  As the low representative languages are mostly of cursive style and complex in nature, this backbone can help share those higher-level features and pass them to the lower level.
-                  Our proposed solution is applied to isolated characters of Bangla, Assamese, and English languages. 
-                  For Bangla, the segmentation is done by our developed method, and the dataset was pre-segmented for the other two languages. 
-                  Applying the solution, we achieved a satisfactory performance.
-                </p>
-              </div>
-            <!-- <p>• Segmentation & Recognition of Bangla, Assamese and English (Handwritten, Typewritten, Computer Composed
-              & Printed) characters</p> -->
-          
-          </div>
-
-
-
-
-
-          <!-- <div class="flex-shrink-0">
-            <span class="text-primary">[will be online soon]</span>
-          </div> -->
-        </div>
-
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <!-- ADD NEW PAPER -->
-          <div class="flex-grow-1">
-            <h4 class="mb-0">
-              Towards building a Bangla text recognition solution with a Multi-Headed CNN architecture
-            </h4>
-            <div class="subheading mb-3">
-              <p> Md. Majedul Islam, Avishek Das, <strong>Tahsin Zaman Jilan</strong>, A K M Shahariar Azad Rabby, Nazmul Hasan, Fuad Rahman</p>
-              <p>
-                IEEE International Conference on Big Data (IEEE BigData2021)
-              </p>
-              <!-- <p>
-              2020 IEEE Region 10 Symposium (TENSYMP), 5-7 June 2020, Dhaka,
-              Bangladesh
-            </p> -->
-              <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9671653"
-                title="Towards building a Bangla text recognition solution with a Multi-Headed CNN architecture"><i
-                  class="fa fa-file-pdf me-2"></i>Paper
-              </a>
-            </div>
-            <div class="textarea">
-              <h5 class="mb-1">Abstract</h5>
-              <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;">
-                Bangla is among the ten most popular languages in the world by the number of speakers. 
-                The task of Bangla recognition is quite challenging than other languages because of the existence of graphemes of multiple single characters, 
-                and diacritics of vowels and consonants. The purpose of this study is to develop an innovative large-scale Bangla OCR solution based on character-level recognition. 
-                Two types of documents were used to test our method: handwritten and printed. In addition, 
-                our method was applied to the handwritten documents as well as three subdomains of the printed domain: 
-                computer-composed, letterpress, and typewritten documents using our proposed attentionbased multi-headed CNN architecture. 
-                Extensive testing shows that our method provides state-of-the-art performance on both handwritten and printed texts.
-              </p>
-            </div>
-
-            <!-- <p>• Recognition of Bangla OCR (Handwritten, Typewritten, Computer Composed & Printed) characters</p> -->
-            <p>
-              • State-of-the-art performance on both handwritten and printed texts
-            </p>
-            <p> DOI: 10.1109/BigData52589.2021.9671653
-            </p>
           </div>
         </div>
 
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
             <h4 class="mb-0">
-              A Novel Approach to Enhance Safety on Drowsy Driving in Self-Driving Car
+              An Interpretable Diagnosis of Retinal Diseases Using Vision Transformer and Grad-CAM
             </h4>
             <div class="subheading mb-3">
+              <p><strong>Tahsin Zaman Jilan</strong>, Mahdi hasan Bhuiyan, Sumit Haldar, Mysha Shabnam Chowdhury, Nazifa Bushra</p>
               <p>
-                Md. Motaharul Islam; <strong>Tahsin Zaman Jilan</strong> ; Mashfiq
-                Shahriar Zaman; Md. Fahmidur Rahman Sakib; Nazmus Saquib. (Springer Nature)
+                Accepted in ECCE2025 [will be published soon]
               </p>
-              <!-- <p>
-                      2020 IEEE Region 10 Symposium (TENSYMP), 5-7 June 2020, Dhaka,
-                      Bangladesh
-                    </p> -->
-              <a target="_blank" href="https://link.springer.com/article/10.1007/s11036-022-01932-8"
-                title="A Novel Approach to Enhance Safety on Drowsy Driving in Self-Driving Car"><i
-                  class="fa fa-file-pdf me-2"></i>Paper
-              </a>
             </div>
             <div class="textarea">
               <h5 class="mb-1">Abstract</h5>
-              <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;">
-                Drowsy driving centric accidents are increasing at a frightening rate. 
-                Needless to say that the state-of-the-art technologies only have competencies in detecting drowsiness and alerting the drowsy driver. 
-                Existing methods have some remarkable hindrances in the domain of handling the distressed situation.
-                Therefore these methodologies are ineffective to take additional safety measures if the driver is not proficient enough to operate the vehicle even though an alarm is given.
-                Consequently, after evaluating the existing methodologies and the growth of autonomous vehicles, 
-                we have proposed an innovative approach that detects driver drowsiness in real-time. 
-                Our suggested model can locate a nearest available safe parking space and reach the parking location after initiating the autonomous driving mode to ensure safety. 
-                The proposed methodology has achieved an accuracy of 98%.
+              <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;font-size: 15px;">
+                Timely identification of retinal disorders is essential to mitigate the risk of vision impairment or total blindness. This study introduces an innovative and interpretable diagnostic framework that integrates the capabilities of a CNN-based architecture and a Transformer model, followed by visualization using Grad-CAM, to tackle the complexities of multi-label classification in retinal disease analysis. By utilizing OCT imagery, we have developed a specialized hybrid system that synergizes deep learning techniques from convolutional and transformer-based networks to enhance diagnostic accuracy. Beyond classification, this approach provides translucent insights into the decision-making process of the model through activation-based visual explanations, improving trust and interpretability in medical AI applications. The CNN-based model achieved an accuracy rate of 88.88%, while the Transformer-based approach reached 91.39%. However, our optimized hybrid configuration significantly outperformed these standalone models. With an impressive accuracy of 98.8%, this advanced system demonstrates its strong potential in revolutionizing retinal disease detection and assisting healthcare professionals in early intervention.
               </p>
             </div>
-            <!-- <p>• Collected data on drowsy driving and analysed to detect drowsiness and
-              proposed an algorithm to turn on autonomous mode to reach to a safe parking space</p> -->
-            <p>
-              • State-of-the-art approach to handle post-alarm condition on
-              autonomous vehicle
-            </p>
-          </div>
-          <div class="flex-shrink-0">
-            <!-- <span class="text-primary">Python, Opencv, ML</span> -->
           </div>
         </div>
 
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
             <h4 class="mb-0">
-              An Algorithmic Approach to Driver Drowsiness Detection for
-              Ensuring Safety in an Autonomous Car
+              The Effectiveness of Different Deep Learning Models in Detecting Hate Speech on Social Media
             </h4>
             <div class="subheading mb-3">
+              <p><strong>Tahsin Zaman Jilan</strong></p>
               <p>
-                Md. Motaharul Islam; <strong>Tahsin Zaman Jilan</strong> ; Mashfiq
-                Shahriar Zaman; Md. Fahmidur Rahman Sakib; Nazmus Saquib
+                Accepted in ECCE2025 [will be published soon]
               </p>
-              <!-- <p>
-                  2020 IEEE Region 10 Symposium (TENSYMP), 5-7 June 2020, Dhaka,
-                  Bangladesh
-                </p> -->
-              <a target="_blank" href="https://ieeexplore.ieee.org/document/9230766"
-                title="An Algorithmic Approach to Driver Drowsiness Detection for Ensuring Safety in an Autonomous Car"><i
-                  class="fa fa-file-pdf me-2"></i>Paper
-              </a>
             </div>
             <div class="textarea">
               <h5 class="mb-1">Abstract</h5>
-              <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;">
-                Human-centric accidents are increasing gradually and one of the dominant causes of the accidents is driver drowsiness. 
-                Therefore, to lessen the accidents related to drowsiness, methods that are capable of observing facial expression to detect drowsiness have been proposed by researchers in recent decades to ensure safety. 
-                However, the state-of-the-art models only have the competency in determining the drowsiness and alarming the driver. 
-                Traditional approaches divide the detection method into two stages, such as detecting drowsiness from the driver's facial features and further apprising the driver.
-                Hence, the existing models are inadequate to take any additional safety procedures to ensure more safety if the driver remains unable to operate the vehicle after giving an alarm.
-                Analyzing these approaches and because of the increasing reliance on the vehicles, we have introduced an algorithmic approach in which the proposed system can locate a safe parking
-                 space after the determination of drowsiness and can also deliver a distress message to the authority informing about the situation while reaching at the safe parking space to assure safety from the incompetent, drowsy driver.
+              <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;font-size: 15px;">
+                Recent changes in social media made it harder to control the propagation of hate speech. One potential solution can be use of deep learning models for automated hate speech recognition. In this work, we evaluate how well different deep learning models classify hate speech on social networks. In our experiments, we use a dataset of social media posts with and without hate speech. We examine the results of a number of different models, including attention-based models, convolutional neural networks (CNNs), and long short-term memory (LSTM). We also examine the effects of additional variables, such as the amount of training data and the use of pre-trained word embeddings, on the performance of these models. Our results demonstrate that attention-based models perform better than CNN and LSTM algorithms in identifying hate speech. To sum up, our research offers valuable perspectives on enhancing deep learning models for the identification of hate speech.
               </p>
             </div>
-            <!-- <p>• Real-Time driver observation using OpenCV & python API</p> -->
-            <!-- <p>
-              • State-of-the-art approach to handle post-alarm condition on
-              autonomous vehicle
-            </p>
-            <p>
-              • The system can book a local parking space and reach there if
-              the driver is sleepy
-            </p> -->
-          </div>
-          <div class="flex-shrink-0">
-            <!-- <span class="text-primary">Python, Opencv, ML</span> -->
-          </div>
-        </div>
-
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h4 class="mb-0">
-              An efficient Metaheuristic Approach for Finding Motifs from DNA Sequences
-            </h4>
-            <div class="subheading mb-3">
-              <p>
-                Syed Md. Shamsul Alam, <strong>Tahsin Zaman Jilan</strong>, Md. Al-Junaed Islam, Shurid Shahriar Zaman, Faisal Bin Ashraf
-              </p>
-              <!-- <p>
-                  2020 IEEE Region 10 Symposium (TENSYMP), 5-7 June 2020, Dhaka,
-                  Bangladesh
-                </p> -->
-              <a target="_blank" href="https://ieeexplore.ieee.org/document/9733453"
-                title="A Deep Learning Based Unified Solution for Character Recognition"><i
-                  class="fa fa-file-pdf me-2"></i>Paper
-              </a>
-            </div>
-            <div class="textarea">
-              <h5 class="mb-1">Abstract</h5>
-              <p style="text-align:justify; background-color:rgb(232, 236, 239);color:black;">
-                Finding patterns of the short sequences in DNA, RNA protein sequence has immense biological significance. 
-                The characterization and recognition of motifs is therefore an important method for a more in-depth understanding of genes or proteins in their structure, 
-                function and relations of evolution. This is one of the classical problems in the field of computational biology and which is an NP Hard problem. 
-                In this paper, we have proposed an evolutionary approach to get the motifs from DNA sequence by searching candidate motifs using heuristic way from the data. 
-                We have included various mutation techniques in an evolutionary approach and found an efficient way to calculate the fitness of our candidate motifs. 
-                We have evaluated the fitness of found motifs from our approach with benchmark data sets.
-                Our method performs better results in terms of accuracy and specificity.
-              </p>
-            </div>
-            <!-- <p>• Created an algorithm that can find DNA motif using heuristic approach</p> -->
-            <p>
-              <!-- • Learned various core heuristic approach and analysed how they affect the population -->
-            </p>
-
           </div>
         </div>
       </div>
     </section>
     <hr class="m-0" />
-
 
     <!-- Skills-->
     <section class="resume-section" id="skills">
